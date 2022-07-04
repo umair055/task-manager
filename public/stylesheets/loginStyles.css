@@ -1,0 +1,31 @@
+.navbar-brand{
+    padding-right: 250px;
+    margin-left: 10px;
+}
+
+.nav-item{
+    padding-left: 30px;
+}
+
+.signup{
+    margin-left: 500px;
+}
+
+p{
+    text-align: center;
+}
+h1{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.fa-brands{
+    margin-left: 25px;
+}
+
+.icons{
+    text-align: center;
+    padding-bottom: 20px;
+}
+

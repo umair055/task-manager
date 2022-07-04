@@ -1,0 +1,26 @@
+.container{
+    border-style: solid;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: aliceblue;
+    margin: 10px;
+}
+.profilePic{
+    height: 100px;
+    width: 100px;
+}
+.picture{
+    max-width: 120px;
+}
+.desciption{
+    padding-left: 500px;
+}
+
+.description p{
+    font-weight: bold;
+}
+
+.btn{
+    float: right;
+    margin: 10px;
+}

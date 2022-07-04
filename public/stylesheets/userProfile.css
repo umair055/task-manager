@@ -1,0 +1,37 @@
+.profilePic{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+.picture{
+    text-align: center;
+}
+
+.description{
+    padding-left: 30px;
+    margin: 20px;
+    padding-bottom: 10px;
+    border-radius:10px ;
+    border-style: solid;
+}
+
+.description p{
+    font-weight: bold;
+}
+
+.JobDescription{
+    padding-left: 30px;
+    margin: 20px;
+    padding-bottom: 10px;
+    border-radius:10px ;
+    border-style: solid;
+}
+
+.edu{
+    padding-left: 30px;
+    margin: 20px;
+    padding-bottom: 10px;
+    border-radius:10px ;
+    border-style: solid;
+}

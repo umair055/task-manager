@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="/stylesheets/styles.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://kit.fontawesome.com/c3d4e8b422.js"
+      crossorigin="anonymous"
+    ></script>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EMS</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="#">Employee Management System</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="/">Home </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/allEmp">Admin Dashboard</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/userProfile">Profile</a>
+          </li>
+        </ul>
+        <% if(!employee) {%>
+        <div class="buttons">
+          <a href="/login">
+            <button type="button" class="btn btn-light ms-auto">Login</button>
+          </a>
+          <a href="/register">
+            <button type="button" class="btn btn-dark">SignUp</button>
+          </a>
+        </div>
+        <%}%> <% if(employee) {%>
+        <div class="logout">
+          <a href="/logout">
+            <button type="button" class="btn btn-light ms-auto">Logout</button>
+          </a>
+        </div>
+        <%}%>
+      </div>
+    </nav>
+  </body>
+</html>

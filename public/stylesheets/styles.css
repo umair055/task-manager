@@ -1,0 +1,114 @@
+.navbar-brand{
+    padding-right: 150px;
+    margin-left: 10px;
+    font-size: 50px;
+}
+
+.nav-item{
+    padding-left: 30px;
+}
+
+.btn{
+    margin-right: 15px;
+}
+
+.buttons{
+     margin-left: 300px;
+}
+
+.logout{
+    padding-left: 400px;
+}
+
+.image{
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(../images/bg.jpg);
+    background-size: cover;  
+    height: 96vh;
+    display: flex;
+    color: white;
+    background-repeat: no-repeat;
+    padding-top: 150px;
+    padding-left: 30px;
+}
+
+
+
+.image p{
+    color: white; 
+}
+
+.image h1{
+    color: white;
+}
+
+.text{
+    width:40%
+}
+
+.text .btn{
+    margin-left: 350px;
+    margin-top: 50px;
+}
+
+.container{
+    padding-top: 20px;
+}
+
+.card{
+    margin:15px 15px;
+}
+.card-img-top{
+    width: 150px;
+    height: 150px;
+}
+
+.footer{
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(./bg2.jpg);
+    background-repeat: no-repeat;
+    height: 200px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+
+.footer img{
+    height: 20px;
+    width: 30px;
+    padding-right: 10px;
+}
+.footer button{
+    margin-left: 100px;
+}
+
+.footer p{
+    color: white;
+    font-size: 30px;
+}
+
+.icons{
+    padding-top: 20px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.fa-brands{
+    padding-left: 20px;
+}
+
+.last{
+    text-align: center;
+}
+
+.last a{
+    padding-left: 15px;
+    text-decoration: none;
+    color: grey;
+    
+}
+
+.copyright{
+    text-align: center;
+    color: gray;
+}
+
+

@@ -1,0 +1,28 @@
+.navbar-brand{
+    padding-right: 250px;
+    margin-left: 10px;
+}
+
+.nav-item{
+    padding-left: 30px;
+}
+
+
+
+form{
+    width: 600px;
+    margin-left: 200px;
+    margin-left: 200px;
+    border:solid ;
+    padding: 20px;
+    border-radius:20px;
+}
+
+.btn{
+    padding-right: 10px;
+    margin-right: 20px;
+}
+.login{
+    text-align: center;
+   padding-bottom: 20px;
+}
